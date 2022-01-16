@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/img_1"
+    tools:context=".ui.person.person.PersonFragment">
+
+    <TextView
+        android:id="@+id/text_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biodata"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="15dp" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="110dp"
+        android:src="@drawable/biru"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama : Rezza Agustin"
+        android:textSize="16sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tempat Lahir : Bandung"
+        android:textSize="16sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir : 29 Agustus 2001"
+        android:textSize="16sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin : Perempuan"
+        android:textSize="16sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="Alamat : Jl. Mekarsari, Katapang, Kab. Bandung"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Golongan Darah : A"
+        android:textSize="16sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>
