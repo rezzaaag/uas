@@ -1,5 +1,6 @@
 package com.example.utsrezzaagustin.ui.dashboard;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,11 +18,16 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.utsrezzaagustin.BookListAdapter;
 import com.example.utsrezzaagustin.R;
 import com.example.utsrezzaagustin.databinding.FragmentDashboardBinding;
+import com.example.utsrezzaagustin.word.WordListAdapter;
+import com.example.utsrezzaagustin.word.WordViewModel;
 
 public class DashboardFragment extends Fragment {
 
     private DashboardViewModel dashboardViewModel;
     private FragmentDashboardBinding binding;
+
+    private WordViewModel mWordViewModel;
+    public static final int NEW_WORD_ACTIVITY_REQUEST_CODE = 1;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -32,10 +38,15 @@ public class DashboardFragment extends Fragment {
         View root = binding.getRoot();
 
         RecyclerView recyclerView = binding.recyclerview;
-        final BookListAdapter adapter = new BookListAdapter(new BookListAdapter.BookDiff());
+        final WordListAdapter adapter = new WordListAdapter(new WordListAdapter.WordDiff());
         recyclerView.setAdapter(adapter);
-        recyclerView.setLayoutManager(new LinearLayoutManager(
-                this));
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+
+        mWordViewModel = new ViewModelProvider(this).get(WordViewModel.class);
+        mWordViewModel.getAllWords().observe(this, words -> {
+            // Update the cached copy of the words in the adapter.
+            adapter.submitList(words);
+        });
 
         return root;
     }

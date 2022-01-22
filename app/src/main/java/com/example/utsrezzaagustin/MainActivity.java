@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.utsrezzaagustin.biodata.BiodataActivity;
+
 public class MainActivity extends AppCompatActivity {
     Button btnLogin;
     TextView textRegister;
@@ -24,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent login = new Intent(MainActivity.this, BottomNavigation.class);
+                Intent login = new Intent(MainActivity.this, BiodataActivity.class);
                 startActivity(login);
             }
         });

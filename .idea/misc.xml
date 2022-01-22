@@ -3,8 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Neuron-NB 112/AndroidStudioProjects/uasrezzaagustinbaru/app/src/main/res/layout/fragment_dashboard.xml" value="0.13020833333333334" />
-        <entry key="..\:/Users/Neuron-NB 112/AndroidStudioProjects/uasrezzaagustinbaru/app/src/main/res/layout/recyclerview_item.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/ARSYAKIR/AndroidStudioProjects/uas/app/src/main/res/drawable/ic_white_add_24.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/ARSYAKIR/AndroidStudioProjects/uas/app/src/main/res/layout/activity_biodata.xml" value="0.33" />
+        <entry key="..\:/Users/ARSYAKIR/AndroidStudioProjects/uas/app/src/main/res/layout/activity_crud.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/ARSYAKIR/AndroidStudioProjects/uas/app/src/main/res/layout/activity_edit.xml" value="0.33" />
+        <entry key="..\:/Users/ARSYAKIR/AndroidStudioProjects/uas/app/src/main/res/layout/activity_lihat.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/ARSYAKIR/AndroidStudioProjects/uas/app/src/main/res/layout/activity_main.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/ARSYAKIR/AndroidStudioProjects/uas/app/src/main/res/layout/activity_new_word.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/ARSYAKIR/AndroidStudioProjects/uas/app/src/main/res/layout/activity_tampilkan.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/ARSYAKIR/AndroidStudioProjects/uas/app/src/main/res/layout/fragment_dashboard.xml" value="0.22" />
+        <entry key="..\:/Users/ARSYAKIR/AndroidStudioProjects/uas/app/src/main/res/layout/listview.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/ARSYAKIR/AndroidStudioProjects/uas/app/src/main/res/layout/recyclerview_item.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/ARSYAKIR/AndroidStudioProjects/uas/app/src/main/res/layout/row_data.xml" value="0.17255434782608695" />
         <entry key="..\:/Users/Neuron-NB 112/AndroidStudioProjects/utsrezzaagustin/app/src/main/res/drawable/person.xml" value="0.1638888888888889" />
         <entry key="..\:/Users/Neuron-NB 112/AndroidStudioProjects/utsrezzaagustin/app/src/main/res/drawable/rounded_edittext.xml" value="0.2703125" />
         <entry key="..\:/Users/Neuron-NB 112/AndroidStudioProjects/utsrezzaagustin/app/src/main/res/layout/activity_bottom_navigation3.xml" value="0.264" />
